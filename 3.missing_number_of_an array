@@ -1,0 +1,9 @@
+1. Missing number of an array
+def missingnumber(lis):
+    l=len(lis)
+    for i in range (l-1):
+        if lis[i+1]!=lis[i]+1:
+            print(lis[i]+1)
+
+
+missingnumber([1,2,3,4,5,6,8])
