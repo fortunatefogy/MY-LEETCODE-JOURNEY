@@ -1,0 +1,13 @@
+1.intersetion of two array
+def intersection(arr1,arr2):
+    l=[]
+    for i in arr1:
+        if i in arr2:
+            l.append(i)
+    return l
+
+a=[1,2,3,4]
+b=[3,4,5]
+
+print(intersection(a,b))
+            
