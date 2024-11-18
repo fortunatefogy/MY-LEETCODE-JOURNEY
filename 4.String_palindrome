@@ -1,0 +1,10 @@
+1. function that check the string is a plaindrome or not
+def stringpalindrome(string):
+    a=string[::-1]
+    if string == a:
+        return "this is a palindrome"
+    else:
+        return "this is not a palindrome"
+
+a="malayalam"
+print(stringpalindrome(a))
