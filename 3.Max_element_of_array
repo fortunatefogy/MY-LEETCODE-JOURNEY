@@ -1,0 +1,7 @@
+1.Max element of an array
+def maxarr(array):
+    return max(array)
+    
+    
+a=[1,2,3,4,5]
+print(maxarr(a))
