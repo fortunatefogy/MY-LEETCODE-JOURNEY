@@ -1,0 +1,11 @@
+1. Function for reverse a string
+
+def revstring(string):
+    s=[]
+    s[:]=string[::-1]
+    return s
+    
+
+a="amal"
+print(revstring(a))
+
