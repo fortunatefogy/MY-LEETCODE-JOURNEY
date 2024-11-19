@@ -1,0 +1,5 @@
+1.Second largest element in an array
+def seclar(arr):
+    return arr[-2]
+    
+print(seclar([1,2,3,4,5,6]))
