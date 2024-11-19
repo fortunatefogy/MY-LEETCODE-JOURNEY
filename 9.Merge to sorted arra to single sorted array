@@ -1,0 +1,7 @@
+1.Merge two sorted array into single sorted array
+def mer(arr1,arr2):
+    b=arr1+arr2
+    return sorted(b)
+
+
+print(mer([2,3,4],[4,3,1]))
